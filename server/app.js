@@ -4,12 +4,16 @@ const app = express();
 
 // const ms1 = process.env.SDC_MS || '127.0.0.1:3004';
 
+// for private addresses
+
 const msIds = {
   "1": '172.31.7.31:3004',
   "2": '172.31.15.82:3004'
 };
 
-// const msIdsPublic = {
+// for public addresses
+
+// const msIds = {
 //   "1": '13.57.32.72:3004',
 //   "2": '13.57.226.67:3004'
 // };
